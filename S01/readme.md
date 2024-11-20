@@ -1,4 +1,4 @@
-# Enunciat
+# ENUNCIAT
 
 Utilitza el text donat per crear una web amb les següents característiques:
 
@@ -6,7 +6,7 @@ Utilitza el text donat per crear una web amb les següents característiques:
 - Utilitza tags per donar-li sentit al text, tenint en compte els títols,subtítols, paràgrafs i paraules a resaltar (mínim resalta 3 paraules amb sentit).
 - Publica la web.
 
-# ADVANCED LEVEL
+## ADVANCED LEVEL
 
 S'ha de poder buscar pels buscadors.
 
