@@ -19,3 +19,6 @@ index.html (posa links en aquesta pàgina per redireccionar a cada solució)
 
 - Les 4 imatges han d'estar en format webp.
 - Les 4 imatges s'han de carregar de forma diferida.
+
+> [!WARNING]
+> Tot el codi ha de pujar-se al repositori Classroom asignat.
