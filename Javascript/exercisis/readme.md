@@ -1,0 +1,88 @@
+
+
+## Ejercicio 14: Buscar Países (Usando Fetch)
+
+Crea un formulario donde el usuario ingrese el nombre de un país.  
+Al hacer clic en un botón, usa `fetch` para obtener datos del país desde la API `https://restcountries.com/v3.1/name/{nombre}` y muestra:
+
+- La bandera del país.
+- La población.
+- El idioma principal.
+- La moneda.
+
+---
+
+## Ejercicio 15: Encontrar Palabra Más Corta y Más Larga
+
+Crea un formulario donde el usuario ingrese una frase.  
+Al hacer clic en un botón, se debe mostrar:
+
+- La **palabra más corta** de la frase.
+- La **palabra más larga** de la frase.
+
+---
+
+## Ejercicio 16: Eliminar Elementos Duplicados
+
+Crea un formulario donde el usuario ingrese una lista de palabras separadas por comas.  
+Al hacer clic en un botón, se debe mostrar la lista sin palabras repetidas.
+
+Ejemplo de entrada:  
+`rojo, azul, verde, rojo, amarillo, azul, negro`  
+Salida: `rojo, azul, verde, amarillo, negro`
+
+---
+
+## Ejercicio 17: Generador de Nombres Aleatorios
+
+Crea un formulario donde el usuario pueda elegir:
+
+1. Un género (`masculino` o `femenino`).
+2. Un número de nombres a generar.
+
+Al hacer clic en un botón, usa `fetch` para obtener nombres aleatorios desde la API `https://randomuser.me/api/?results={cantidad}&gender={genero}` y muestra la lista de nombres generados.
+
+---
+
+## Ejercicio 18: Analizador de Números
+
+Crea un formulario donde el usuario ingrese una lista de números separados por comas.  
+Al hacer clic en un botón, se debe mostrar:
+
+- El número más grande.
+- El número más pequeño.
+- La suma de todos los números.
+- El promedio.
+
+Usa `Math.max()`, `Math.min()`, `reduce()` y `map()` para los cálculos.
+
+---
+
+## Ejercicio 19: Convertir Texto a Código Morse
+
+Crea un formulario donde el usuario ingrese un texto.  
+Al hacer clic en un botón, se debe mostrar la versión en **código Morse** del texto ingresado.
+
+Ejemplo:  
+Entrada: `hola`  
+Salida: `.... --- .-.. .-`
+
+> [!NOTE]
+> [Ver Solución](./soluciones/ejercicio%2019/)
+
+> [!WARNING]
+> [Ver en directo](https://codi.link/PCFET0NUWVBFIGh0bWw+DQo8aHRtbCBsYW5nPSJlbiI+DQoNCjxoZWFkPg0KICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+DQogIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4NCiAgPHRpdGxlPvCfpoQgQXdlc29tZSB0cmFuc2xhdG9yIG1vcnNlIHBhZ2Ug8J+mhDwvdGl0bGU+DQogIDxzY3JpcHQgc3JjPSJpbmRleC5qcyIgZGVmZXI+PC9zY3JpcHQ+DQo8L2hlYWQ+DQoNCjxib2R5Pg0KICA8Zm9ybSBpZD0iZm9ybSI+DQogICAgPGxhYmVsIGZvcj0idGV4dCI+VGV4dCB0byB0cmFuc2xhdGU6PC9sYWJlbD4NCiAgICA8aW5wdXQgdHlwZT0idGV4dCIgbmFtZT0idGV4dCIgaWQ9InRleHQiPg0KICAgIDxidXR0b24gdHlwZT0ic3VibWl0Ij5UcmFuc2xhdGU8L2J1dHRvbj4NCiAgPC9mb3JtPg0KICA8ZGl2IGlkPSJyZXN1bHQiPjwvZGl2Pg0KPC9ib2R5Pg0KDQo8L2h0bWw+%7CZGl2I3Jlc3VsdHsNCiAgcGFkZGluZzogMTBweDsNCiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIxNiwgMjIwLCAxNik7DQogIG1hcmdpbjogMTBweCBhdXRvOw0KfQ0KDQojcmVzdWx0ID4gc3BhbiB7DQogIGJhY2tncm91bmQtY29sb3I6IHJnYigyMTQsIDE1NiwgMTU2KTsNCiAgYm9yZGVyOiAxcHggc29saWQgcmVkOw0KICBjb2xvcjogcmdiKDc0LCAxNiwgMTYpOw0KICBwYWRkaW5nOiA1cHggMTBweDsNCn0=%7CY29uc3QgZm9ybSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIiNmb3JtIik7DQpjb25zdCByZXN1bHQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIjcmVzdWx0Iik7DQoNCmNvbnN0IGRpY3Rpb25hcnkgPSB7DQogIGE6ICLCty0iLA0KICBiOiAiLcK3wrfCtyIsDQogIGM6ICItwrctwrciLA0KICBkOiAiLcK3wrciLA0KICBlOiAiwrciLA0KICBmOiAiwrfCty3CtyIsDQogIGc6ICItLcK3IiwNCiAgaDogIsK3wrfCt8K3IiwNCiAgaTogIsK3wrciLA0KICBqOiAiwrctLS0iLA0KICBrOiAiLcK3LSIsDQogIGw6ICLCty3Ct8K3IiwNCiAgbTogIi0tIiwNCiAgbjogIi3CtyIsDQogIG86ICItLS0iLA0KICBwOiAiwrctLcK3IiwNCiAgcTogIi0twrctIiwNCiAgcjogIsK3LcK3IiwNCiAgczogIsK3wrfCtyIsDQogIHQ6ICItIiwNCiAgdTogIsK3wrctIiwNCiAgdjogIsK3wrfCty0iLA0KICB3OiAiwrctLSIsDQogIHg6ICItwrfCty0iLA0KICB5OiAiLcK3LS0iLA0KICB6OiAiLS3Ct8K3IiwNCiAgMDogIi0tLS0tIiwNCiAgMTogIsK3LS0tLSIsDQogIDI6ICLCt8K3LS0tIiwNCiAgMzogIsK3wrfCty0tIiwNCiAgNDogIsK3wrfCt8K3LSIsDQogIDU6ICLCt8K3wrfCt8K3IiwNCiAgNjogIi3Ct8K3wrfCtyIsDQogIDc6ICItLcK3wrfCtyIsDQogIDg6ICItLS3Ct8K3IiwNCiAgOTogIi0tLS3CtyIsDQogICIuIjogIsK3LcK3LcK3LSIsDQogICIsIjogIi0twrfCty0tIiwNCiAgIj8iOiAiwrfCty0twrfCtyIsDQogICInIjogIsK3LS0tLcK3IiwNCiAgIiEiOiAiLcK3LcK3LS0iLA0KICAiLyI6ICItwrfCty3CtyIsDQogICIoIjogIi3Cty0twrciLA0KICAiKSI6ICItwrctLcK3LSIsDQogICImIjogIsK3LcK3wrfCtyIsDQogICI6IjogIi0tLcK3wrfCtyIsDQogICI7IjogIi3Cty3Cty3CtyIsDQogICI9IjogIi3Ct8K3wrctIiwNCiAgIisiOiAiwrctwrctwrciLA0KICAiLSI6ICItwrfCt8K3wrctIiwNCiAgXzogIsK3wrctLcK3LSIsDQogICciJzogIsK3LcK3wrctwrciLA0KICAkOiAiwrfCt8K3LcK3wrctIiwNCiAgIkAiOiAiwrctLcK3LcK3IiwNCiAgIiAiOiAiICIsDQp9Ow0KDQpjb25zdCB0cmFuc2xhdGUgPSAodGV4dCkgPT4gew0KICAvLyBwYXNhciBhIG1pbnVzY3VsYXMNCiAgY29uc3QgbG93ZXJUZXh0ID0gdGV4dC50b0xvd2VyQ2FzZSgpOw0KDQogIC8vIG1lIHBhc2VvIHBvciBjYWRhIGxldHJhIHkgbGEgdHJhZHV6Y28NCiAgLy8gbGV0IHJlc3VsdCA9ICIiOw0KICAvLyBmb3IgKGxldCBpID0gMDsgaSA8IGxvd2VyVGV4dC5sZW5ndGg7IGkrKykgew0KICAvLyAgIGNvbnN0IGxldHRlciA9IGxvd2VyVGV4dFtpXTsNCiAgLy8gICBjb25zdCB0cmFuc2xhdGlvbiA9IGRpY3Rpb25hcnlbbGV0dGVyXTsNCiAgLy8gICByZXN1bHQgKz0gdHJhbnNsYXRpb24gKyAiICI7DQogIC8vIH0NCg0KICAvLyBjb25zdCBhcnJheU9mVHJhbnNhbHRpb25zID0gbG93ZXJUZXh0LnNwbGl0KCIiKS5tYXAoKGxldHRlcikgPT4gew0KICAvLyAgIHJldHVybiBkaWN0aW9uYXJ5W2xldHRlcl07DQogIC8vIH0pOw0KDQogIC8vIHJldHVybiBhcnJheU9mVHJhbnNhbHRpb25zLmpvaW4oIiAiKTsNCg0KICByZXR1cm4gbG93ZXJUZXh0DQogICAgLnNwbGl0KCIiKQ0KICAgIC5tYXAoKGxldHRlcikgPT4gZGljdGlvbmFyeVtsZXR0ZXJdKQ0KICAgIC5qb2luKCIgIik7DQp9Ow0KDQpmb3JtLmFkZEV2ZW50TGlzdGVuZXIoInN1Ym1pdCIsIChlKSA9PiB7DQogIGUucHJldmVudERlZmF1bHQoKTsNCiAgY29uc3QgZm9ybURhdGEgPSBuZXcgRm9ybURhdGEoZm9ybSk7DQogIGNvbnN0IGRhdGEgPSBPYmplY3QuZnJvbUVudHJpZXMoZm9ybURhdGEpOw0KICBjb25zdCB0cmFuc2xhdGVkVGV4dCA9IHRyYW5zbGF0ZShkYXRhLnRleHQpOw0KICByZXN1bHQuaW5uZXJIVE1MID0gdHJhbnNsYXRlZFRleHQNCiAgICAuc3BsaXQoIiAiKQ0KICAgIC5tYXAoKGNoYXIpID0+IHsNCiAgICAgIHJldHVybiBgPHNwYW4+JHtjaGFyfTwvc3Bhbj5gOw0KICAgIH0pDQogICAgLmpvaW4oIiAiKTsNCn0pOw==)
+---
+
+## Ejercicio 20: Contar Vocales y Consonantes
+
+Crea un formulario donde el usuario ingrese una palabra o frase.  
+Al hacer clic en un botón, se debe mostrar:
+
+- Cuántas vocales tiene.
+- Cuántas consonantes tiene.
+- Cuántas veces aparece cada vocal.
+
+---
+
+Cada ejercicio debe realizarse sin recargar la página, utilizando **HTML, CSS y JavaScript** para manejar la interacción.
